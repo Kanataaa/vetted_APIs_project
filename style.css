@@ -1,0 +1,37 @@
+#align {
+    text-align: center;
+}
+
+#gen {
+    padding: 7px;
+    border: solid blueviolet 5px;
+    border-radius: 13px;
+    background-color: white;
+    color: blueviolet;
+    font-size: 16px;
+}
+
+#gen:hover {
+    animation: enlargeFade 0.4s forwards;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes enlargeFade {
+    from {
+        background-color: white;
+        color: blueviolet;
+        font-size: 16px;
+        padding: 7px;
+    }
+
+    to {
+        background-color: blueviolet;
+        color: white;
+        font-size: 20px;
+        padding: 9px;
+    }
+}
